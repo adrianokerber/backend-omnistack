@@ -6,9 +6,12 @@ const DislikeController = require('./controllers/DislikeController');
 const routes = express.Router();
 
 // GET, POST, PUT, DELETE
-// TODO: remove deprecated GET
 routes.get('/', (req, res) => {
-    return res.json({ message: `Hello ${req.query.name}`});
+    return res.json({
+        service: `OmniStack service`,
+        version: '0.0.1',
+        developer: 'Adriano Kerber - kerberpro@gmail.com',
+    });
 });
 
 routes.get('/devs', DevController.index);
