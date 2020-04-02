@@ -1,11 +1,28 @@
 # OmniStack Backend API
 
-The backend application developed using Node.js and Javascript. For dependency managment we use Yarn.
+The backend application developed using Node.js and Javascript.
 
-## Starting the service
+## Environment setup
+
+In order to run the server you will need to...
+
+* Install [Node.js](https://nodejs.org/en/download/package-manager/) (v10.16.1 or above) via package manager [here](https://nodejs.org/en/download/package-manager/)
+    - [Homebrew](https://brew.sh/index_pt-br) for macOS
+    - [Chocolatey](https://chocolatey.org/) for Windows
+* Install [Yarn](https://classic.yarnpkg.com/en/) for Node package managment instead of [npm](https://www.npmjs.com/). Note: install Yarn via package manager like the step before
+* Be happy! :D
+
+### Tips
+
+- Use [VSCode](https://code.visualstudio.com/) as the IDE and set the following extensions:
+    - [Dracula Official](https://draculatheme.com/visual-studio-code)
+    - [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
+- Download and set [Firacode](https://github.com/tonsky/FiraCode) as the font and enable **font programming ligatures** on VSCode
+
+## Running the service
 
 Each environment has its own way of running
 
-* DEV - run `yarn dev` to start the server service.
+* DEV - run `yarn dev` to start the server service
 
-Important: After running the command, to test if the service is up and running, try accessing the service root path. Eg: [http://localhost:3333/](http://localhost:3333/).
+Important: After running the command, to test if the service is up and running, try accessing the service root path. Eg: [http://localhost:3333/](http://localhost:3333/)
