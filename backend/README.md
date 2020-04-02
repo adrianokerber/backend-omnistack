@@ -29,8 +29,11 @@ Important: After running the command, to test if the service is up and running, 
 
 ## Roadmap
 
-- [x] Endpoint for listing profiles to match
+The _2020_  API roadmap
+
+- [x] User registration endpoint
+- [x] Endpoint to list all profiles to match
 - [x] Like action
 - [x] Dislike action
 - [ ] Endpoint to list all users
-- [ ] Authentication via token, else than user (userId)
+- [ ] Authentication via token, instead of our current user (userId) header
