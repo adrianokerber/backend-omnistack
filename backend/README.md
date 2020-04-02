@@ -1,6 +1,6 @@
 # OmniStack Backend API
 
-The backend application developed using Node.js and Javascript.
+The backend application for TinDev (The dev Tinder) developed using Node.js and Javascript.
 
 ## Environment setup
 
@@ -26,3 +26,11 @@ With the environment set and the dependencies in place, you just need to run the
 * DEV - run `yarn dev` to start the server service
 
 Important: After running the command, to test if the service is up and running, try accessing the service root path. Eg: [http://localhost:3333/](http://localhost:3333/)
+
+## Roadmap
+
+- [x] Endpoint for listing profiles to match
+- [x] Like action
+- [x] Dislike action
+- [ ] Endpoint to list all users
+- [ ] Authentication via token, else than user (userId)
