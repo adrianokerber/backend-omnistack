@@ -4,8 +4,6 @@ The backend application developed using Node.js and Javascript.
 
 ## Environment setup
 
-In order to run the server you will need to...
-
 * Install [Node.js](https://nodejs.org/en/download/package-manager/) (v10.16.1 or above) via package manager [here](https://nodejs.org/en/download/package-manager/)
     - [Homebrew](https://brew.sh/index_pt-br) for macOS
     - [Chocolatey](https://chocolatey.org/) for Windows
@@ -21,7 +19,9 @@ In order to run the server you will need to...
 
 ## Running the service
 
-Each environment has its own way of running
+You will need to run the command `yarn` (First time only) to install the Node dependencies that will be stored under _node_modules_ folder.
+
+With the environment set and the dependencies in place, you just need to run the service. Each environment has its own way of starting the service:
 
 * DEV - run `yarn dev` to start the server service
 
