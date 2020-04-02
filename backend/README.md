@@ -37,3 +37,4 @@ The _2020_  API roadmap
 - [x] Dislike action
 - [ ] Endpoint to list all users
 - [ ] Authentication via token, instead of our current user (userId) header
+- [ ] Continuous integration with CircleCI 😍
