@@ -1,1 +1,2 @@
-/node_modules
+## We can ignore node_modules folder but for now we are keeping it to avoid errors due to missing dependencies.
+#/node_modules
