@@ -35,6 +35,8 @@ The _2020_  API roadmap
 - [x] Endpoint to list all profiles to match
 - [x] Like action
 - [x] Dislike action
+- [ ] Handle error cases using HTTP codes
 - [ ] Endpoint to list all users
-- [ ] Authentication via token, instead of our current user (userId) header
+- [ ] Authentication via [token](https://jwt.io/) instead of our current user's ID header that is insecure
+- [ ] Enable security levels using user permissions to prevent unauthorized calls. Each endpoint has a security level and a user can only succeed if he has the required permissions
 - [ ] Continuous integration with CircleCI 😍
