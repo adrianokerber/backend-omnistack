@@ -40,3 +40,4 @@ The _2020_  API roadmap
 - [ ] Authentication via [token](https://jwt.io/) instead of our current user's ID header that is insecure
 - [ ] Enable security levels using user permissions to prevent unauthorized calls. Each endpoint has a security level and a user can only succeed if he has the required permissions
 - [ ] Continuous integration with CircleCI 😍
+- [ ] Add a Redis DB to store the mapping of userId and WebSockets in order to transform the server to stateless

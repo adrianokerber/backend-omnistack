@@ -8,22 +8,24 @@ const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
 
+const connectedUsers = {}; // Map of userId and socket.id
+
 io.on('connection', socket => {
-    console.log('Nova conexão', socket.id);
+    const { user } = socket.handshake.query;
 
-    socket.on('hello', message => {
-        console.log(message);
-    });
-
-    setTimeout(() => {
-        socket.emit('world', {
-            message: 'OmniStack'
-        });
-    }, 5000);
+    connectedUsers[user] = socket.id;
 });
 
 mongoose.connect('mongodb+srv://omniStack:y2uzXjC2nFLdHV9z@clusterzero-09qhx.mongodb.net/omnistack?retryWrites=true&w=majority', {
     useNewUrlParser: true
+});
+
+// Middleware (The interceptor that run before the other Express calls on the endpoints)
+app.use((req, res, next) => {
+    req.io = io;
+    req.connectedUsers = connectedUsers;
+
+    return next();
 });
 
 app.use(cors());
