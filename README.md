@@ -2,6 +2,8 @@
 
 The backend application for TinDev (The dev Tinder) developed using Node.js and Javascript.
 
+See more details in the [main repository](https://github.com/adrianokerber/omnistack).
+
 ## Environment setup
 
 * Install [Node.js](https://nodejs.org/en/download/package-manager/) (v10.16.1 or above) via package manager [here](https://nodejs.org/en/download/package-manager/)
@@ -26,6 +28,10 @@ With the environment set and the dependencies in place, you just need to run the
 * DEV - run `yarn dev` to start the server service
 
 Important: After running the command, to test if the service is up and running, try accessing the service root path. Eg: [http://localhost:3333/](http://localhost:3333/)
+
+## Dependencies
+
+- We use [MongoDB](https://www.mongodb.com/) as our database.
 
 ## Roadmap
 
