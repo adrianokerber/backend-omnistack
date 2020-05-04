@@ -4,6 +4,8 @@ The backend application for TinDev (The dev Tinder) developed using Node.js and 
 
 See more details in the [main repository](https://github.com/adrianokerber/omnistack).
 
+Important: we commited publicly the MongoDB connection to enable an easy configuration and setup for anyone whose want to run the application. But we strongly advise you against this practice. Prefer using [dotenv](https://github.com/motdotla/dotenv) to keep your configuration and variables as it should be - local and SECRET!
+
 ## Environment setup
 
 * Install [Node.js](https://nodejs.org/en/download/package-manager/) (v10.16.1 or above) via package manager [here](https://nodejs.org/en/download/package-manager/)
