@@ -1,6 +1,6 @@
-# OmniStack Backend API
+# OmniStack's Back end API
 
-The backend application for TinDev (The dev Tinder) developed using Node.js and Javascript.
+The back end application for TinDev (The dev Tinder) developed using Node.js and Javascript.
 
 See more details in the [main repository](https://github.com/adrianokerber/omnistack).
 
